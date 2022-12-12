@@ -1,0 +1,84 @@
+img {
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:larger;
+}
+.content{
+    padding-top: 10%;
+    margin: auto;
+}
+.cover{
+   height: 70%;
+    text-align: center;
+}
+.heading{
+    margin: auto;
+}
+h1{
+    font-size: 40pt;
+    font-weight: bolder;
+}
+p{
+    color: grey;
+}
+.secondsection{
+    justify-content: center;
+}
+.cards{
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
+.image{
+    
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.svg{
+    width: 10;
+    height: 10;
+    color: red;
+}
+.roundbtn{
+    background-color: white;
+    color: #732dd9;
+    padding: 2px;
+    z-index: 2;
+    align-items: center;
+    flex: auto;
+    width: fit-content;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+    border-radius: 20px;
+    font-size: smaller;
+}
+.filter{
+    justify-content: center;
+    padding: 20px;  
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+}
+select{
+    padding: 20px;
+    border-radius: 0%;
+    outline: none;
+    border-right: 0px;
+    
+}
+option{
+    margine: 20px;  
+}
+button{  display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    background: #732dd9;
+    text-align: center;
+    color: white;
+    border: none;
+}
