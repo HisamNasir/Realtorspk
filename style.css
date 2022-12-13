@@ -2,47 +2,119 @@ img {
     width: 100%;
     height: auto;
 }
-body{
-    font-family: 'Lato', sans-serif;
-    font-size:larger;
+#logo{
+    width: 150px;
+    height: auto;
 }
-.content{
-    padding-top: 10%;
-    margin: auto;
+.active{
+    
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.activea{
+    border-style: solid;
+    border-width:1px;
+    padding: 8px;
+    display: flex;
+    margin: 8px;
+    color:#732dd9;
+}
+.in{
+    font-size: smaller;
+    width: 100%;
+    font-weight:normal;
+    display: flex;
+
+    font-size:9pt;
+    color: rgb(105, 105, 105);
+}
+nav{
+    font-size: smaller;
+    font-weight:normal;
+    display: flex;
+    background-color: white;
+    border-bottom: #732dd9;
+    color: rgb(105, 105, 105);
+    border-bottom: 1px solid rgb(234, 231, 231);
+    
+}
+.topnav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+ 
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 0%;
+}
+#container{
+    padding-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 .cover{
-   height: 70%;
     text-align: center;
+    height: 55%;
 }
 .heading{
     margin: auto;
 }
 h1{
-    font-size: 40pt;
+    font-size: 38pt;
     font-weight: bolder;
 }
 p{
     color: grey;
 }
+.content{
+    align-items: center;
+}
 .secondsection{
     justify-content: center;
+    margin-top: 20px;
+}
+.thirdsection{
+    justify-content: center;
+    
+    
+
+    margin-top: 20px;
 }
 .cards{
     position: relative;
-    width: 200px;
+    margin: 5px;
+    margin-bottom: 50px;
+    
+    width: 300px;
     height: 200px;
 
 }
+.cardsblk{
+    position: relative;
+    
+}
 .image{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.image2{
     
     object-fit: cover;
-    width: 200px;
+    width: 300px;
     height: 200px;
+    border-radius: 8%;
 }
 .svg{
-    width: 10;
-    height: 10;
+scale:  1;
     color: red;
+    height: 10px ;
+    width: auto;
 }
 .roundbtn{
     background-color: white;
@@ -53,8 +125,39 @@ p{
     flex: auto;
     width: fit-content;
     position: absolute;
-    bottom: 2vh;
-    right: 2vh;
+    bottom: 4px;
+    right: 4px;
+    border-radius: 8px;
+    font-size: smaller;
+}
+.city{
+    
+
+  border-color: lightgray;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.property{
+    border-color: lightgray;
+}
+.price{
+    border-color: lightgray;
+}
+.search{
+    border-color: lightgray;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.counter{
+    color: white;
+   
+    z-index: 2;
+    align-items: center;
+    flex: auto;
+    width: fit-content;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
     border-radius: 20px;
     font-size: smaller;
 }
@@ -65,20 +168,156 @@ p{
     grid-template-columns: auto auto auto auto;   
 }
 select{
-    padding: 20px;
+    padding: 15px;
     border-radius: 0%;
     outline: none;
-    border-right: 0px;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 12pt;
+    color: gray;
     
 }
+.cardst{
+    margin-top: 50px;
+    height: fit-content;
+}
 option{
-    margine: 20px;  
+    margin: 20px;  
+}
+.cardsforproject{
+    justify-content: center;
+    font-size: 15px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+}
+.cardst{
+        border: #732dd9;
+       
+    overflow-x: scroll; 
+    
+    
+}
+.table{
+    
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;   
 }
 button{  display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     background: #732dd9;
     text-align: center;
+    font-size: 15pt;
     color: white;
     border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cardsforproject{
+        justify-content: center;
+        font-size: 15px;
+    
+        display: grid;
+        grid-template-columns: auto auto auto;   
+    }
+    #container{
+        padding-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .cards{
+        position: relative;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: fit-content;
+        height: 200px;
+    
+    }
+
+    .cardsblk{
+        position: relative;
+        border: #732dd9;
+        border-radius: 2%;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: fit-content; 
+    }
+}
+@media only screen and (max-width: 769px) {
+    .cardsforproject{
+        justify-content: center;
+        font-size: 15px;
+    
+        display: grid;
+        grid-template-columns: auto auto ;   
+    }
+    .cards{
+        position: relative;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: fit-content;
+        height: 200px;
+    
+    }
+    .cardsblk{
+        position: relative;
+        border: #732dd9;
+        border-radius: 2%;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: fit-content; 
+    }
+}
+@media only screen and (max-width: 640px) {
+    #overflowTest {
+
+      }
+      .cardst{
+        
+        margin-top: 50px;
+
+        color: white;
+
+    }
+    .cardsforproject{
+        justify-content: center;
+        font-size: 15px;
+    
+        display: grid;
+        grid-template-columns: auto ;   
+    }
+    .cards{
+        position: relative;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: fit-content;
+        height: 200px;
+    
+    }
+    .cardsblk{
+        position: relative;
+        border: #732dd9;
+        border-radius: 2%;
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    .filter{
+        justify-content: center;
+    
+        display: grid;
+        grid-template-columns: auto;   
+    }
+    .city{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .search{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
 }
