@@ -1,323 +1,328 @@
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-#logo{
-    width: 150px;
-    height: auto;
-}
-.active{
-    
-    padding-top: 16px;
-    padding-right: 10px;
-}
-.activea{
-    border-style: solid;
-    border-width:1px;
-    padding: 8px;
-    display: flex;
-    margin: 8px;
-    color:#732dd9;
-}
-.in{
-    font-size: smaller;
-    width: 100%;
-    font-weight:normal;
-    display: flex;
 
-    font-size:9pt;
-    color: rgb(105, 105, 105);
+#logo {
+  width: 150px;
+  height: auto;
 }
-nav{
-    font-size: smaller;
-    font-weight:normal;
-    display: flex;
-    background-color: white;
-    border-bottom: #732dd9;
-    color: rgb(105, 105, 105);
-    border-bottom: 1px solid rgb(234, 231, 231);
-    
+
+.active {
+  padding-top: 16px;
+  padding-right: 10px;
 }
-.topnav{
-    width: 100%;
-    display: flex;
-    justify-content: right;
+
+.activea {
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  margin: 8px;
+  color: #732dd9;
+}
+
+.in {
+  font-size: smaller;
+  width: 100%;
+  font-weight: normal;
+  display: flex;
+
+  font-size: 9pt;
+  color: rgb(105, 105, 105);
+}
+
+nav {
+  font-size: smaller;
+  font-weight: normal;
+  display: flex;
+  background-color: white;
+  border-bottom: #732dd9;
+  color: rgb(105, 105, 105);
+  border-bottom: 1px solid rgb(234, 231, 231);
+}
+
+.topnav {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  margin: 0%;
+}
+
+#container {
+  padding-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cover {
+  height: 70vh;
+  display: grid;
+  align-items: center;
+}
+
+.heading {
+  margin: auto;
+}
+
+h1 {
+  font-size: 38pt;
+  font-weight: bolder;
+}
+
+p {
+  color: grey;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+}
+h3{font-size: 20pt;
+font-weight: 600;
+color: rgb(39, 39, 39);}
+.secondsection {
+  margin-top: 20px;
+}
+
+.thirdsection {
  
 
+  margin-top: 20px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 100%;
-    margin: 0%;
-}
-#container{
-    padding-top: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
 
+.cards {
+  position: relative;
+  margin-bottom: 50px;
+  width: 310px;
+  height: 310px;
 }
-.cover{
-    text-align: center;
-    height: 55%;
-}
-.heading{
-    margin: auto;
-}
-h1{
-    font-size: 38pt;
-    font-weight: bolder;
-}
-p{
-    color: grey;
-}
-.content{
-    align-items: center;
-}
-.secondsection{
-    justify-content: center;
-    margin-top: 20px;
-}
-.thirdsection{
-    justify-content: center;
-    
-    
 
-    margin-top: 20px;
-}
-.cards{
-    position: relative;
-    margin: 5px;
-    margin-bottom: 50px;
-    
-    width: 300px;
-    height: 200px;
+.cardsblk {
+  padding: 10px;
+  color: black;
+  position: relative;
+  width: fit-content;
+  border: rgb(189, 189, 189);
+  border-style: solid;
+  border-radius: 20px;
+  width: auto;
 
+  margin: 10px;
 }
-.cardsblk{
-    position: relative;
-    
-}
-.image{
-    object-fit: cover;
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-}
-.image2{
-    
-    object-fit: cover;
-    width: 300px;
-    height: 200px;
-    border-radius: 8%;
-}
-.svg{
-scale:  1;
-    color: red;
-    height: 10px ;
-    width: auto;
-}
-.roundbtn{
-    background-color: white;
-    color: #732dd9;
-    padding: 2px;
-    z-index: 2;
-    align-items: center;
-    flex: auto;
-    width: fit-content;
-    position: absolute;
-    bottom: 4px;
-    right: 4px;
-    border-radius: 8px;
-    font-size: smaller;
-}
-.city{
-    
 
+.image {
+  object-fit: cover;
+
+  width: 310px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.image2 {
+  object-fit: cover;
+  height: 200px;
+
+  border-radius: 20px;
+}
+
+.svg {
+  scale: 1;
+  color: red;
+  height: 10px;
+  width: auto;
+}
+
+.roundbtn {
+  background-color: white;
+  color: #732dd9;
+  padding: 2px;
+  z-index: 2;
+  align-items: center;
+  flex: auto;
+  width: fit-content;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  border-radius: 10px;
+  padding: 9px
+  font-size: large;
+}
+
+.city {
   border-color: lightgray;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
-.property{
-    border-color: lightgray;
+
+.property {
+  border-color: lightgray;
 }
-.price{
-    border-color: lightgray;
+
+.price {
+  border-color: lightgray;
 }
-.search{
-    border-color: lightgray;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+
+.search {
+  border-color: lightgray;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
-.counter{
-    color: white;
-   
-    z-index: 2;
-    align-items: center;
-    flex: auto;
-    width: fit-content;
-    position: absolute;
-    bottom: 1vh;
-    left: 1vh;
-    border-radius: 20px;
-    font-size: smaller;
+
+.counter {
+  color: white;
+
+  z-index: 2;
+  align-items: center;
+  flex: auto;
+  width: fit-content;
+  position: absolute;
+  bottom: 1vh;
+  left: 1vh;
+  border-radius: 20px;
+  font-size: smaller;
 }
-.filter{
-    justify-content: center;
-    padding: 20px;  
-    display: grid;
-    grid-template-columns: auto auto auto auto;   
+
+.filter {
+  justify-content: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
-select{
-    padding: 15px;
-    border-radius: 0%;
-    outline: none;
-    padding-left: 10px;
-    padding-right: 50px;
-    font-size: 12pt;
-    color: gray;
-    
+
+select {
+  padding: 15px;
+  border-radius: 0%;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 50px;
+  font-size: 12pt;
+  color: gray;
 }
-.cardst{
-    margin-top: 50px;
-    height: fit-content;
+
+.cardst {
+  margin-top: 10px;
+
 }
-option{
-    margin: 20px;  
+
+option {
+  margin: 20px;
 }
-.cardsforproject{
-    justify-content: center;
-    font-size: 15px;
-    
-    display: grid;
-    grid-template-columns: auto auto auto auto;   
+
+.cardsforproject {
+  font-size: 15px;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
-.cardst{
-        border: #732dd9;
-       
-    overflow-x: scroll; 
-    
-    
+
+.table {
+
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
-.table{
-    
-    justify-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto;   
-}
-button{  display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background: #732dd9;
-    text-align: center;
-    font-size: 15pt;
-    color: white;
-    border: none;
+
+button {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #732dd9;
+  text-align: center;
+  font-size: 15pt;
+  color: white;
+  border: none;
 }
 
 @media only screen and (max-width: 1024px) {
-    .cardsforproject{
-        justify-content: center;
-        font-size: 15px;
-    
-        display: grid;
-        grid-template-columns: auto auto auto;   
-    }
-    #container{
-        padding-top: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-    
-    }
-    .cards{
-        position: relative;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: fit-content;
-        height: 200px;
-    
-    }
+  .cardsforproject {
+    justify-content: center;
+    font-size: 15px;
 
-    .cardsblk{
-        position: relative;
-        border: #732dd9;
-        border-radius: 2%;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: fit-content; 
-    }
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  #container {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cards {
+    position: relative;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: fit-content;
+    height: 200px;
+  }
+
+  .table {
+    overflow-x: scroll;
+  
+  }
+
+
+
 }
+
 @media only screen and (max-width: 769px) {
-    .cardsforproject{
-        justify-content: center;
-        font-size: 15px;
-    
-        display: grid;
-        grid-template-columns: auto auto ;   
-    }
-    .cards{
-        position: relative;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: fit-content;
-        height: 200px;
-    
-    }
-    .cardsblk{
-        position: relative;
-        border: #732dd9;
-        border-radius: 2%;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: fit-content; 
-    }
+  .cardsforproject {
+  
+    font-size: 15px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .cards {
+    position: relative;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: fit-content;
+    height: 200px;
+  }
+
 }
+
 @media only screen and (max-width: 640px) {
-    #overflowTest {
 
-      }
-      .cardst{
-        
-        margin-top: 50px;
 
-        color: white;
+  .cardsforproject {
+    font-size: 15px;
 
-    }
-    .cardsforproject{
-        justify-content: center;
-        font-size: 15px;
-    
-        display: grid;
-        grid-template-columns: auto ;   
-    }
-    .cards{
-        position: relative;
-        margin: 5px;
-        margin-bottom: 50px;
-        width: fit-content;
-        height: 200px;
-    
-    }
-    .cardsblk{
-        position: relative;
-        border: #732dd9;
-        border-radius: 2%;
-        margin: 5px;
-        margin-bottom: 50px;
-    }
-    .filter{
-        justify-content: center;
-    
-        display: grid;
-        grid-template-columns: auto;   
-    }
-    .city{
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-    .search{
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .cards {
+    position: relative;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: fit-content;
+    height: 200px;
+  }
+
+  .filter {
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .city {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .search {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 }
